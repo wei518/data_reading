@@ -12,7 +12,7 @@ DD1=data.frame(Time=as.Date(DD$time, format="%Y/%m/%d"),
 
 
 DD1 %>% 
-  gather(STATE,volumn,treatment,control,-Time) -> test #time©ñ«e­±
+  gather(STATE,volumn,treatment,control,-Time) -> test #timeæ”¾å‰é¢
 
 t1=test %>% 
   filter(Time <= "2018-12-21")
